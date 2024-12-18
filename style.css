@@ -1,0 +1,234 @@
+body {
+   height: 230vh;
+   margin: 0%;
+    background: linear-gradient(
+        to bottom right, 
+        rgb(45, 90, 122) 20%,
+        rgb(80, 167, 211) 40%, skyblue 50%,
+        aliceblue 300%,
+        white 300%
+    );
+    margin: 2%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+#div1 {
+    display: flex; /* Makes image and list next to each other */
+    align-items: center; /* Vertically center items */
+    padding: 10px;
+    border: 1px solid;
+    width: auto;
+    height: auto;
+    transition: transform 0.5s ease, background-color 0.3s ease;
+    box-shadow: 20px 9px 15px black;
+  
+}
+
+#div1 img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid wheat;
+    border-radius: 50%; /* Circular image */
+    margin-right: 20px; /* Space between image and list */
+    box-shadow: 20px 9px 15px black;
+    transition: transform 0.5s ease, background-color 0.3s ease;
+}
+
+#div1 img:hover {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translateX(20px);
+}
+
+#div1:hover {
+    background-color: antiquewhite;
+    transform: translateX(20px);
+    color: black;
+}
+
+#div1 ul {
+    color: #0b0b0b;
+    padding: 0;
+    margin-left: 10%;
+    list-style: none; 
+    margin: 10px;
+}
+
+#div1 a {
+    margin: 10px 0; /* Space between list items */
+    font-size: 19px;
+    
+    padding: 10px 20px;
+   
+}
+#about{
+   
+    align-items: center; 
+    margin: 4%;
+    padding: 10px;
+    background: linear-gradient(
+        to top right, 
+        rgb(74, 95, 150) 2%, rgb(58, 121, 146) 5%, rgb(77, 137, 194) 10%,
+        white 40%
+    );
+    border: 1px solid;
+    width: auto;
+    height: auto;
+    transition: transform 0.5s ease, background-color 0.3s ease;
+    box-shadow: 20px 9px 15px black;
+}
+#about:hover{
+    background-color: antiquewhite;
+    transform: translateX(20px);
+    color: black;
+}
+#education{
+    background: linear-gradient(
+        to top right, 
+        rgb(74, 95, 150) 2%, rgb(58, 121, 146) 5%, rgb(77, 137, 194) 10%,
+        white 40%
+    );
+    display: flex; /* Makes image and list next to each other */
+    align-items: center; /* Vertically center items */
+    padding: 10px;
+    border: 1px solid;
+    margin: 4%;
+    width: auto;
+    height: auto;
+    transition: transform 0.5s ease, background-color 0.3s ease;
+    box-shadow: 20px 9px 15px black;
+}
+#education dl {
+    margin: 3%;
+    
+}
+#education li{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font:bold;
+}
+#education dd{
+    font-size: 15px;
+}
+#education:hover{
+    background-color: antiquewhite;
+    transform: translateX(20px);
+    color: black;
+}
+#skills{
+    background: linear-gradient(
+        to top right, 
+        rgb(74, 95, 150) 2%, rgb(58, 121, 146) 5%, rgb(77, 137, 194) 10%,
+        white 40%
+    );
+    display: flex; /* Makes image and list next to each other */
+    align-items: center; /* Vertically center items */
+    padding: 10px;
+    border: 1px solid;
+    margin: 4%;
+    width: auto;
+    height: auto;
+    transition: transform 0.5s ease, background-color 0.3s ease;
+    box-shadow: 20px 9px 15px black;
+}
+#skills:hover{
+    background-color: antiquewhite;
+    transform: translateX(20px);
+    color: black;
+}
+#future{
+    background: linear-gradient(
+        to top right, 
+        rgb(74, 95, 150) 2%, rgb(58, 121, 146) 5%, rgb(77, 137, 194) 10%,
+        white 40%
+    );
+    display: flex; /* Makes image and list next to each other */
+    align-items: center; /* Vertically center items */
+    padding: 10px;
+    border: 1px solid;
+    margin: 4%;
+    width: auto;
+    height: auto;
+    transition: transform 0.5s ease, background-color 0.3s ease;
+    box-shadow: 20px 9px 15px black;
+}
+#future p{
+    margin: 20px;
+}
+#future:hover{
+    background-color: antiquewhite;
+    transform: translateX(20px);
+    color: black;
+}
+#personal{
+    background: linear-gradient(
+        to top right, 
+        rgb(74, 95, 150) 2%, rgb(58, 121, 146) 5%, rgb(77, 137, 194) 10%,
+        white 40%
+    );
+    display: flex; /* Makes image and list next to each other */
+    align-items: center; /* Vertically center items */
+    padding: 10px;
+    border: 1px solid;
+    margin: 4%;
+    width: auto;
+    height: auto;
+    transition: transform 0.5s ease, background-color 0.3s ease;
+    box-shadow: 20px 9px 15px black;
+}
+#personal dl{
+    margin: 10px;
+}
+#personal li{
+    margin: 10px;
+    font-size: 17px;
+}
+#personal dl dd{
+    font-size: 15px;
+}
+#personal
+#personal:hover{
+    background-color: antiquewhite;
+    transform: translateX(20px);
+    color: black;}
+#contacr{
+    background: linear-gradient(
+        to top right, 
+        rgb(74, 95, 150) 2%, rgb(58, 121, 146) 5%, rgb(77, 137, 194) 10%,
+        white 40%
+    );
+    display: flex; /* Makes image and list next to each other */
+    align-items: center; /* Vertically center items */
+    padding: 10px;
+    border: 1px solid;
+    margin: 4%;
+    width: auto;
+    height: auto;
+    transition: transform 0.5s ease, background-color 0.3s ease;
+    box-shadow: 20px 9px 15px black;
+}
+#contacr:hover{
+    background-color: antiquewhite;
+    transform: translateX(20px);
+    color: black;}
+
+footer{
+    background: linear-gradient(
+        to top right, 
+        rgb(74, 95, 150) 2%, rgb(58, 121, 146) 5%, rgb(77, 137, 194) 10%,
+        white 40%
+    );
+    text-align: center;
+    
+    padding: 1px;
+    border: 1px solid;
+    margin: 4%;
+    width: auto;
+    
+    transition: transform 0.5s ease, background-color 0.3s ease;
+    box-shadow: 20px 9px 15px black;
+}
